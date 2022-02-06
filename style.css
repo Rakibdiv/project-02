@@ -1,0 +1,412 @@
+                            /*=========== COMMON CSS START ===========*/
+                            
+                            * {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            .clr {
+                                clear: both;
+                            }
+                            
+                            .mr {
+                                margin-right: 0 !important;
+                            }
+                            
+                            .full_wrapper {
+                                width: 100%;
+                            }
+                            
+                            .wrapper {
+                                width: 1170px;
+                                margin: 0 auto;
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                                display: inline-block;
+                            }
+                            
+                            ul,
+                            ol {
+                                text-transform: uppercase;
+                            }
+                            
+                            h1,
+                            h2,
+                            h3,
+                            h4,
+                            h5,
+                            h6,
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                line-height: 0.8;
+                            }
+                            /*=========== COMMON CSS END ===========*/
+                            /*=========== HEADER PART START ===========*/
+                            
+                            .header .header {
+                                background: rgba(0, 0, 0, 0.5);
+                                position: absolute;
+                            }
+                            
+                            .logo {
+                                width: 270px;
+                                float: left;
+                            }
+                            
+                            .logo img {
+                                padding-top: 32.5px;
+                            }
+                            
+                            .menu {
+                                width: 900px;
+                                text-align: right;
+                                float: left;
+                            }
+                            
+                            ul li {
+                                display: inline-block;
+                            }
+                            
+                            ul li a {
+                                font-size: 14px;
+                                line-height: 90px;
+                                padding-left: 45px;
+                                font-weight: 700;
+                                color: #ffffff;
+                                font-family: 'Roboto Condensed', sans-serif;
+                                transition: .4s;
+                            }
+                            
+                            ul li a:hover {
+                                color: #28b8d8;
+                            }
+                            /*=========== HEADER PART END ===========*/
+                            /*=========== BANNER PART START ===========*/
+                            
+                            .banner {
+                                padding-top: 330px;
+                                padding-bottom: 250px;
+                                background: url(../images/banner.jpg);
+                                background-size: cover;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                            }
+                            
+                            .banner_text {
+                                text-align: center;
+                            }
+                            
+                            .banner_text h3 {
+                                font-size: 50px;
+                                font-weight: 700;
+                                color: #fff;
+                                font-family: 'Roboto Condensed', sans-serif;
+                            }
+                            
+                            .banner_text h4 {
+                                font-size: 40px;
+                                font-weight: 300;
+                                color: #fff;
+                                letter-spacing: 4px;
+                                padding: 20px 0px;
+                                font-family: 'Roboto Slab', serif;
+                            }
+                            
+                            .banner_text p {
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: #fff;
+                                font-family: 'Roboto Slab', serif;
+                            }
+                            /*=========== BANNER PART END ===========*/
+                            /*=========== SERVICE PART START ===========*/
+                            
+                            .services {
+                                padding: 80px 0px;
+                                background: #f9f9f9;
+                            }
+                            /* ===========SERVICE TEXT PART START=========== */
+                            
+                            .service_text {
+                                text-align: center;
+                            }
+                            
+                            .service_text h2 {
+                                font-size: 30px;
+                                font-weight: 300;
+                                color: #444444;
+                                font-family: 'Roboto Slab', serif;
+                            }
+                            
+                            .service_text p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #666666;
+                                font-family: 'Roboto', sans-serif;
+                                padding-top: 25px;
+                                padding-bottom: 75px;
+                            }
+                            
+                            .service_text h3 {
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #444444;
+                                font-family: 'Roboto Condensed', sans-serif;
+                                padding-bottom: 30px;
+                                text-transform: uppercase;
+                            }
+                            /* ===========SERVICE TEXT PART END=========== */
+                            /* ===========SERVICE ITEM PART START=========== */
+                            
+                            .service_item {
+                                width: 368px;
+                                background: #ffffff;
+                                border: 1px solid #e3e3e3;
+                                padding: 15px;
+                                float: left;
+                                margin-right: 30px;
+                                box-sizing: border-box;
+                            }
+                            
+                            .service_img img {
+                                width: 100%;
+                            }
+                            
+                            .service_item_text {
+                                text-align: center;
+                                margin-top: 25px;
+                            }
+                            
+                            .service_item_text h3 {
+                                font-size: 17px;
+                                font-weight: 700;
+                                color: #444444;
+                                font-family: 'Roboto Slab', serif;
+                                padding-bottom: 12px;
+                            }
+                            
+                            .service_item_text p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #666666;
+                                font-family: 'Roboto', sans-serif;
+                                padding: 0 15px;
+                                line-height: 22px;
+                            }
+                            /* ===========SERVICE ITEM PART END===========  */
+                            /*=========== SERVICE PART END ===========*/
+                            /*=========== INSTAGRAM PART START ===========*/
+                            
+                            .instagram {
+                                padding: 50px 0px;
+                                background: #2c2c2c;
+                            }
+                            /*=========== INSTA_HEAD PART START ===========*/
+                            
+                            .insta_head {
+                                text-align: center;
+                                margin-bottom: 45px;
+                            }
+                            
+                            .insta_head h3 {
+                                position: relative;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #d5d5d5;
+                                font-family: 'Roboto Condensed', sans-serif;
+                                text-transform: uppercase;
+                                display: inline-block;
+                            }
+                            
+                            .insta_head h3::before {
+                                height: 1px;
+                                width: 100px;
+                                background: #535353;
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                left: -65px;
+                                transform: translateX(-50%);
+                            }
+                            
+                            .insta_head h3::after {
+                                height: 1px;
+                                width: 100px;
+                                background: #535353;
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                right: -165px;
+                                transform: translateX(-50%);
+                            }
+                            /*=========== INSTA_HEAD PART END ===========*/
+                            /*=========== INSTA_IMG PART START ===========*/
+                            
+                            .insta_item {
+                                width: 25%;
+                                float: left;
+                            }
+                            
+                            .insta_item img {
+                                width: 100%;
+                            }
+                            /*=========== INSTA_IMG PART END ===========*/
+                            /*=========== INSTA_ICON PART START ===========*/
+                            
+                            .insta_btn {
+                                text-align: center;
+                                margin-top: 60px;
+                            }
+                            
+                            .insta_btn a {
+                                border: 1px solid #e3e3e3;
+                                padding: 15px 20px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #a6a6a6;
+                                font-family: 'Roboto', sans-serif;
+                                text-transform: uppercase;
+                            }
+                            
+                            .insta_btn i {
+                                padding-right: 5px;
+                            }
+                            /*=========== INSTA_ICON PART END ===========*/
+                            /*=========== INSTAGRAM PART END ===========*/
+                            /*=========== BLOG PART START ===========*/
+                            
+                            .journal h3 {
+                                color: #444444;
+                            }
+                            
+                            .blog {
+                                padding-top: 80px;
+                                padding-bottom: 40px;
+                                background: #f9f9f9;
+                            }
+                            
+                            .blog_item {
+                                width: 368px;
+                                background: #ffffff;
+                                border: 1px solid #e3e3e3;
+                                padding-top: 25px;
+                                padding-bottom: 25px;
+                                float: left;
+                                margin-right: 30px;
+                                box-sizing: border-box;
+                            }
+                            
+                            .blog_head {
+                                text-align: center;
+                            }
+                            
+                            .blog_head h3 {
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: #444444;
+                                font-family: 'Roboto Slab', serif;
+                            }
+                            
+                            .blog_head p {
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #999999;
+                                font-family: 'Roboto', sans-serif;
+                                padding-top: 10px;
+                                padding-bottom: 25px;
+                            }
+                            
+                            .blog_img img {
+                                width: 100%;
+                            }
+                            
+                            .blog_bottom {
+                                padding: 25px 25px 0px;
+                            }
+                            
+                            .blog_bottom p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: 'Roboto', sans-serif;
+                                color: #666666;
+                                line-height: 22px;
+                            }
+                            
+                            .blog_btm {
+                                margin-top: 25px;
+                            }
+                            
+                            .blog_btm .left {
+                                float: left;
+                            }
+                            
+                            .blog_btm .left a {
+                                font-size: 11px;
+                                font-weight: 400;
+                                color: #999999;
+                                font-family: 'Roboto', sans-serif;
+                                border-bottom: 1px solid #28b8d8;
+                                text-transform: uppercase;
+                            }
+                            
+                            .blog_btm .right {
+                                float: right;
+                            }
+                            
+                            .blog_btm .right h6 {
+                                font-size: 11px;
+                                color: #999999;
+                            }
+                            
+                            .blog_btn .right i {
+                                margin-right: 5px;
+                            }
+                            /*=========== BLOG PART END ===========*/
+                            /*=========== ABOUT PART START ===========*/
+                            
+                            .about {
+                                background: #f9f9f9;
+                                padding-top: 40px;
+                                padding-bottom: 80px;
+                            }
+                            
+                            .about_left {
+                                width: 570px;
+                                float: left;
+                                margin-right: 30px;
+                            }
+                            
+                            .about_right {
+                                width: 570px;
+                                float: left;
+                            }
+                            
+                            .common_head h3 {
+                                position: relative;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #444444;
+                                font-family: 'Roboto Condensed', sans-serif;
+                                text-transform: uppercase;
+                                display: inline-block;
+                            }
+                            
+                            .common_head h3::after {
+                                height: 1px;
+                                width: 100px;
+                                background: #d9d9d9;
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                right: -165px;
+                                transform: translateX(-50%);
+                            }
+                            /*=========== ABOUT PART END ===========*/
+                            /*===========  PART END ===========*/
+                            /*===========  PART END ===========*/
+                            /*===========  PART END ===========*/
+                            /*===========  PART END ===========*/
+                            /*===========  PART END ===========/
